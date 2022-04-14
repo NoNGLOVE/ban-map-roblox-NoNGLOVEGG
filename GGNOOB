@@ -1,0 +1,8 @@
+local SimpleUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/naypramx/Ui__Project/Script/SimpleUi"))()
+local Main = SimpleUi:create('NoNGLOVE X HUB')
+local Menu = Main:Menu('Menu')
+local Page = Menu:Page()
+Page:Label('NoNGLOVE X HUB')
+Page:Button('BAN MAP',false,function()
+    game.Players.LocalPlayer:kick("The game has been deleted")
+end)
